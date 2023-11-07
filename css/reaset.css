@@ -1,0 +1,17 @@
+@font-face {
+    font-family: roboto;
+    src: url(../font/Roboto-Medium.eot) format(eot);
+    src: url(../font/Roboto-Medium.woff) format(woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

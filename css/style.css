@@ -1,0 +1,280 @@
+:root {
+  --custom-color-red: #ed1c24;
+  --custom-color-gray-1: #3a3a3c;
+  --custom-color-gray-2: #bdbdbd;
+  --custom-color-gray-3: #828282;
+  --custom-color-gray-6: #f2f2f2;
+}
+/*============================ section one ============================*/
+/*============================== navbar ===============================*/
+.nav-underline .nav-link.active {
+  font-weight: 400;
+  color: #4f4f4f;
+  border-bottom-color: var(--custom-color-red);
+}
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: 400;
+  color: #4f4f4f;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, 0.15s ease-in-out, 0.15s ease-in-out;
+}
+.nav-underline .nav-link:focus,
+.nav-underline .nav-link:hover {
+  border-bottom-color: var(--custom-color-red);
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #4f4f4f;
+}
+/*============================= mainbox ==============================*/
+section.one span.text-one {
+  color: var(--custom-color-gray-2);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.75rem;
+}
+section.one p.text-one {
+  font-size: 4.4rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 4.75rem;
+  width: 80%;
+}
+section.one span.text-tow {
+  color: var(--custom-color-red);
+}
+section.one p.text-tow {
+  color: var(--custom-color-gray-3);
+}
+a.btn-one {
+  border-radius: 0.25rem;
+  background: var(--custom-color-gray-1);
+  padding: 0.8rem 3rem;
+  color: white;
+}
+a.btn-one:hover {
+  border-radius: 0.25rem;
+  padding: 0.8rem 3rem;
+  color: var(--custom-color-gray-2);
+  transition: all 0.4s;
+}
+img.img-one {
+  position: absolute;
+  top: 18rem;
+  left: 45%;
+}
+/*============================ section tow ============================*/
+section.tow {
+  background: var(--custom-color-gray-1);
+  /* height: 27rem; */
+}
+section.tow div.img {
+  position: absolute;
+  left: 0;
+  color: #4f4f4f;
+  z-index: 1;
+}
+section.tow div.img-2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #4f4f4f;
+  font-size: 100px;
+}
+section.tow div.text {
+  margin-top: 12%;
+  z-index: 2;
+}
+section.tow span.text-one {
+  color: var(--custom-color-gray-3);
+  font-size: 0.75rem;
+  line-height: 2rem;
+}
+section.tow p.text-one {
+  color: var(--custom-color-gray-6);
+  font-size: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+section.tow span.text-tow {
+  color: rgba(196, 196, 196, 0.12);
+  font-size: 4.625rem;
+  font-weight: 900;
+  line-height: 2rem;
+  position: absolute;
+  top: 50%;
+}
+section.tow p.text-tow {
+  color: var(--custom-color-gray-6);
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+section.tow .custom-card {
+  background: var(--custom-color-gray-1);
+  color: white;
+}
+/*============================ section three ============================*/
+section.three span.text-one {
+  color: var(--custom-color-gray-3);
+  font-size: 0.75rem;
+  line-height: 2rem;
+}
+section.three p.text-one {
+  color: var(--custom-color-gray-1);
+  font-size: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+section.three span.text-tow {
+  color: rgba(196, 196, 196, 0.15);
+  font-size: 4.625rem;
+  font-weight: 900;
+  line-height: 2rem;
+  position: absolute;
+  top: 18%;
+}
+section.three p.text-tow {
+  color: var(--custom-color-gray-3);
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  margin-top: 0.5rem;
+}
+/*============================ section four ============================*/
+section.four {
+  background: #f4f4f4;
+}
+section.four span.text-one {
+  color: var(--custom-color-gray-3);
+  font-size: 0.75rem;
+  line-height: 2rem;
+}
+section.four p.text-one {
+  color: var(--custom-color-gray-1);
+  font-size: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+section.four span.text-tow {
+  color: rgba(196, 196, 196, 0.15);
+  font-size: 4.625rem;
+  font-weight: 900;
+  position: absolute;
+  top: 15%;
+}
+a.read-more {
+  color: var(--custom-color-red);
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+span.biger {
+  color: #ed1c24;
+  font-size: 1.4rem;
+}
+div.box {
+  border-radius: 0.5rem;
+}
+.custom-card-title {
+  color: var(--custom-color-gray-6);
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 4.75rem;
+}
+.custom-main-text {
+  color: var(--custom-color-gray-1);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.custom-card-text {
+  color: var(--custom-color-gray-3);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.img-p {
+  background-color: #ececec;
+  padding: 1rem;
+}
+/*============================ section five ============================*/
+div.five {
+  height: 16.25rem;
+  position: absolute;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  bottom: 12%;
+  z-index: 5;
+  /* width: 48rem; */
+}
+section.five {
+  background: url(../public/images/index/S-5/towfiqu-barbhuiya-w-8-p-9-cqdlx-7-i-unsplash-1.png);
+  /* width: 48rem; */
+  height: 16.25rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+}
+section.five div.box {
+  background-color: rgba(58, 58, 60, 0.78);
+  height: 16.25rem;
+  /* width: 48rem; */
+}
+section.five div.box p {
+  color: var(--custom-color-gray-6);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.75rem;
+}
+section.five div.box a {
+  color: var(--custom-color-gray-6);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 4.75rem;
+  background: var(--custom-color-red);
+  padding: 10px 50px;
+}
+section.five div.box input {
+  width: 23.46744rem;
+  height: 2.5rem;
+  border-radius: 0.25rem;
+  background: var(--Gray-6, #f2f2f2);
+  padding: 20px;
+  outline: 0;
+  border: 1px solid var(--custom-color-gray-2);
+}
+/*============================ footer ============================*/
+footer {
+  position: relative;
+}
+footer.container-fluid {
+  background: var(--custom-color-gray-1);
+}
+footer div.text p.text {
+  color: var(--custom-color-gray-3);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+footer p.titr {
+  color: var(--custom-color-gray-6);
+  font-size: 1rem;
+  font-weight: 700;
+}
+footer .x {
+  color: var(--custom-color-gray-6);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+footer div.copy {
+  color: var(--Gray-4, #bdbdbd);
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+img.sdf {
+  width: 100%;
+}

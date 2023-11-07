@@ -1,0 +1,193 @@
+:root {
+  --custom-color-red: #fe5d26;
+  --custom-color-gray-1: #3a3a3c;
+  --custom-color-gray-2: #bdbdbd;
+  --custom-color-gray-3: #828282;
+  --custom-color-gray-6: #f2f2f2;
+}
+/*============================ section one ============================*/
+/*============================== navbar ===============================*/
+.nav-underline .nav-link.active {
+  font-weight: 400;
+  color: #4f4f4f;
+  border-bottom-color: var(--custom-color-red);
+}
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: 400;
+  color: #4f4f4f;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, 0.15s ease-in-out, 0.15s ease-in-out;
+}
+.nav-underline .nav-link:focus,
+.nav-underline .nav-link:hover {
+  border-bottom-color: var(--custom-color-red);
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #4f4f4f;
+}
+/*============================== mainbox ===============================*/
+section.one {
+  background-image: url(../public/images/contact/S-1/header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 23.1875rem;
+}
+section.one div.row {
+  background-color: rgba(58, 58, 60, 0.72);
+  height: 23.1875rem;
+}
+section.one div.row p {
+  color: var(--custom-color-gray-6);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 4.75rem;
+}
+/*============================ section tow ============================*/
+section.tow div p {
+  color: var(--custom-color-gray-3);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+section.tow div span.span {
+  color: var(--custom-color-gray-1);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+section.tow div span.titr {
+  color: var(--custom-color-gray-1);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+img.line {
+  stroke-width: 1px;
+  stroke: #e5e5e5;
+  width: 15.75rem;
+  height: 2rem;
+}
+section.tow form input {
+  width: 100%;
+  height: 3rem;
+  padding-left: 1rem;
+  border: 1px solid var(--custom-color-gray-2);
+  border-radius: 0.2rem;
+  outline: 0;
+}
+section.tow form textarea {
+  width: 100%;
+  height: 3rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  border: 1px solid var(--custom-color-gray-2);
+  border-radius: 0.2rem;
+  outline: 0;
+}
+input::placeholder {
+  color: #9e9e9e;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+textarea::placeholder {
+  color: #9e9e9e;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+section.tow a.login {
+  border-radius: 3.125rem;
+  background: #212121;
+  width: 8.89413rem;
+  height: 2.875rem;
+  color: white;
+  outline: 0;
+}
+/*============================ section three ============================*/
+div.five {
+  /* width: 48rem; */
+  height: 16.25rem;
+  position: absolute;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  bottom: 20%;
+  z-index: 5;
+}
+section.five {
+  background: url(../public/images/index/S-5/towfiqu-barbhuiya-w-8-p-9-cqdlx-7-i-unsplash-1.png);
+  /* width: 48rem; */
+  height: 16.25rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+}
+section.five div.box {
+  background-color: rgba(58, 58, 60, 0.78);
+  height: 16.25rem;
+  /* width: 48rem; */
+}
+section.five div.box p.header {
+  color: var(--custom-color-gray-6);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.75rem;
+}
+section.five div.box p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+section.five div.box a {
+  color: var(--custom-color-gray-6);
+  font-size: 0.875rem;
+  font-weight: 500;
+  position: absolute;
+  right: 15%;
+  background: var(--custom-color-red);
+  padding: 11px 50px;
+  border-radius: 3.125rem;
+}
+section.five div.box input {
+  width: 23.4rem;
+  height: 2.5rem;
+  background: var(--Gray-6, #f2f2f2);
+  padding: 20px;
+  border-radius: 3.125rem;
+  outline: 0;
+  border: 1px solid var(--custom-color-gray-2);
+}
+/*============================ footer ============================*/
+footer.container-fluid {
+  background: #212121;
+}
+footer div.text p.text {
+  color: #bdbdbd;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+footer a {
+  color: var(--custom-color-gray-6);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+footer .x {
+  color: var(--custom-color-gray-6);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+footer div.copy {
+  color: var(--Gray-4, #bdbdbd);
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+img.sdf {
+  width: 100%;
+}
